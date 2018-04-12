@@ -30,7 +30,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 	"github.com/spf13/pflag"
-	"github.com/uber/prototool/internal/x/exec"
+	"github.com/tgrpc/prototool/internal/x/exec"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
@@ -481,6 +481,9 @@ func (f *flags) bindGen(flagSet *pflag.FlagSet) {
 
 func (f *flags) bindHeaders(flagSet *pflag.FlagSet) {
 	flagSet.StringSliceVarP(&f.headers, "header", "H", []string{}, "Additional request headers in 'name:value' format.")
+	for _, h := range f.headers {
+		fmt.Println(h)
+	}
 }
 
 func (f *flags) bindCallTimeout(flagSet *pflag.FlagSet) {

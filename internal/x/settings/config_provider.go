@@ -30,7 +30,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/uber/prototool/internal/x/strs"
+	"github.com/tgrpc/prototool/internal/x/strs"
 	"go.uber.org/zap"
 	"gopkg.in/yaml.v2"
 )

@@ -10,7 +10,7 @@ import (
 	"reflect"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/uber/prototool/example/gen/proto/go/sub"
+	"github.com/tgrpc/prototool/example/gen/proto/go/sub"
 	"go.uber.org/fx"
 	"go.uber.org/yarpc"
 	"go.uber.org/yarpc/api/transport"

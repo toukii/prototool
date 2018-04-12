@@ -9,7 +9,7 @@ import math "math"
 import google_protobuf "github.com/gogo/protobuf/types"
 import google_protobuf1 "github.com/gogo/protobuf/types"
 import _ "google.golang.org/genproto/googleapis/api/annotations"
-import foo_sub "github.com/uber/prototool/example/gen/proto/go/sub"
+import foo_sub "github.com/tgrpc/prototool/example/gen/proto/go/sub"
 
 import strconv "strconv"
 

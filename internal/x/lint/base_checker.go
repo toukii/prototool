@@ -25,7 +25,7 @@ import (
 	"sync"
 
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/x/text"
+	"github.com/tgrpc/prototool/internal/x/text"
 )
 
 type baseChecker struct {

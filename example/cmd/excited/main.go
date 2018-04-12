@@ -26,7 +26,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/uber/prototool/example/gen/proto/go/foo"
+	"github.com/tgrpc/prototool/example/gen/proto/go/foo"
 	"google.golang.org/grpc"
 )
 
